@@ -708,6 +708,12 @@ IR Remote Codes for Acer K132 projector (and possibly other models using a remot
 * Mute	{"Protocol":"NEC","Bits":32,"Data":"0x10C88679"}
 </code></pre>
 
+### Epson TW-3200
+
+button | code
+------ | ---
+ON/Off | {"Protocol":"EPSON","Bits":32,"Data":"0xC1AA09F6","DataLSB":"0x8355906F"}
+
 ## Soundbars
 ### IR Codes Soundbar Panasonic SCALL70T
 
@@ -783,6 +789,29 @@ IR Remote Codes for Acer K132 projector (and possibly other models using a remot
 * 0x20DF11EE="Previous"
 * 0x20DF12ED="Play/Pause"
 * 0x20DF13EC="Next"
+
+### Ir Codes Bose Soundbar 300
+
+button | code
+--- | ---
+ON/Off | IRsend {"Protocol":"NEC","Bits":32,"Data":"0x5D0532CD","DataLSB":"0xBAA04CB3"}
+Movie | IRsend {"Protocol":"EPSON","Bits":32,"Data":"0x5D05CA35","DataLSB":"0xBAA053AC"}
+Voice Mode | IRsend {"Protocol":"EPSON","Bits":32,"Data":"0x5D05C13E","DataLSB":"0xBAA0837C"}
+Bluetooth | IRsend {"Protocol":"EPSON","Bits":32,"Data":"0x5D05817E","DataLSB":"0xBAA0817E"}
+BT Pair | IRsend {"Protocol":"UNKNOWN","Bits":316,"Hash":"0xEFF16A6A"}
+Vol + | IRsend {"Protocol":"EPSON","Bits":32,"Data":"0x5D05C03F","DataLSB":"0xBAA003FC"}
+Vol - | IRsend {"Protocol":"EPSON","Bits":32,"Data":"0x5D0540BF","DataLSB":"0xBAA002FD"}
+Mute | IRsend {"Protocol":"EPSON","Bits":32,"Data":"0x5D05807F","DataLSB":"0xBAA001FE"}
+1 | {"Protocol":"EPSON","Bits":32,"Data":"0x5D05827D","DataLSB":"0xBAA041BE"}
+2 | {"Protocol":"EPSON","Bits":32,"Data":"0x5D0542BD","DataLSB":"0xBAA042BD"}
+3 | {"Protocol":"EPSON","Bits":32,"Data":"0x5D05C23D","DataLSB":"0xBAA043BC"}
+4 | {"Protocol":"EPSON","Bits":32,"Data":"0x5D0522DD","DataLSB":"0xBAA044BB"}
+5 | {"Protocol":"EPSON","Bits":32,"Data":"0x5D05A25D","DataLSB":"0xBAA045BA"}
+6 | {"Protocol":"EPSON","Bits":32,"Data":"0x5D05629D","DataLSB":"0xBAA046B9"}
+7 | {"Protocol":"EPSON","Bits":32,"Data":"0x5D05E21D","DataLSB":"0xBAA047B8"}
+8 | {"Protocol":"EPSON","Bits":32,"Data":"0x5D0512ED","DataLSB":"0xBAA048B7"}
+9 | {"Protocol":"EPSON","Bits":32,"Data":"0x5D05926D","DataLSB":"0xBAA049B6"}
+0 | {"Protocol":"EPSON","Bits":32,"Data":"0x5D0502FD","DataLSB":"0xBAA040BF"}
 
 ## Vacuum Cleaners
 ### IR Codes Vacuum Cleaner Ecovacs Deebot Slim2
